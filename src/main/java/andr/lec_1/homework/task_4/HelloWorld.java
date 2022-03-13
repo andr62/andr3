@@ -1,7 +1,7 @@
-package andr1.lec_1.classwork;
+package andr.lec_1.homework.task_4;
 
 public class HelloWorld {
     public static void main(String[] args) {
-        System.out.println("Hello, " + args[1]);
+        System.out.println(args[1]);
     }
 }
