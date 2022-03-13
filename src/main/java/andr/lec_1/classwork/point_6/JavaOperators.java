@@ -27,6 +27,7 @@ package andr.lec_1.classwork.point_6;
             System.out.println("8<<3=" + (8 << 3));
             System.out.println("8>>4=" + (8 >> 3));
             System.out.println("7 % 5=" + 7 % 5);
+            System.out.println("7 % 5=" + 7 % 5);
 
         }
     }
