@@ -1,2 +1,4 @@
-package andr.lec_1.classwork.point_6;public class JavaOperators {
+package andr.lec_1.classwork.point_6;
+public class JavaOperators {
+
 }
