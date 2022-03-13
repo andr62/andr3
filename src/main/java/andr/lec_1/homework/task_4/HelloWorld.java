@@ -2,6 +2,6 @@ package andr.lec_1.homework.task_4;
 
 public class HelloWorld {
     public static void main(String[] args) {
-        System.out.println("Nice2See " + args[2]);
+        System.out.println("Nice2See " + args[1]);
     }
 }
