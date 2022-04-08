@@ -14,7 +14,7 @@ package andr.lec_1.classwork.point_6;
             System.out.println("3!=5 ->" + (3 != 5));
 
             int x = 0;
-            System.out.println("x=" + x); // переменная типа "х" + 1 -> выводим на экран
+            System.out.println("x=" + x)  ; // переменная типа "х" + 1 -> выводим на экран
             x = x + 1;
 
             x++; // ++x
