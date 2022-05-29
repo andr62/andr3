@@ -19,7 +19,6 @@ public class ThreeElementArray {
         // System.out.println(array);
       //  InputStream = System.in;
         System.out.println(Arrays.toString(array));
-        System.out.println("The sum of their choices will be: " + System.in);
-
+        System.out.println("The sum of your choices will be: " + System.in);
 }
 }

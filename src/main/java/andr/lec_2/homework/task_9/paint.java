@@ -11,7 +11,7 @@ public class paint {
                 for (int sign = 0; sign <= outer - 1; sign++) {
                     System.out.print("**");
                 }
-                System.out.println();
+                System.out.println(" ");
             }
             for (int outer = 5; outer > 0; outer--) {
                 for (int space = 5; space > outer; space--) {
@@ -20,7 +20,7 @@ public class paint {
                 for (int sign = 0; sign < outer - 1; sign++) {
                     System.out.print("**");
                 }
-                System.out.println();
+                System.out.println(" ");
             }
         }
     }

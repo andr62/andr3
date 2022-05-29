@@ -9,8 +9,8 @@ public class BMWi7Range {
             totalBatteryDecrease = totalBatteryDecrease - newBatteryDist / 10;
             double capacityLeft = (newBatteryDist - totalBatteryDecrease);
             double batteryDecrease = totalBatteryDecrease;
-    System.out.println( "Capacity loss year by year in case of 5 years of usage: " + capacityLeft);
-    System.out.println(batteryDecrease);
+    System.out.println( "Why does it sum??"  + capacityLeft);
+    System.out.println("Capacity loss year by year in case of 5 years of usage: "+ batteryDecrease);
         }
     }
 }
