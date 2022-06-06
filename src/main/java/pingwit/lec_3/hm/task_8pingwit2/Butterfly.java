@@ -1,2 +1,5 @@
-package pingwit.lec_3.hm.task_8pingwit2;public class ButterFly {
+package pingwit.lec_3.hm.task_8pingwit2;
+
+public class Butterfly {
+
 }
