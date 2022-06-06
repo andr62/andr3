@@ -1,4 +1,4 @@
-package andr.lec_3.homework.task_1pingwit2;
+package pingwit.lec_3.hm.task_1pingwit2;
 
 
 import java.util.Arrays;
@@ -28,31 +28,3 @@ public class ScannerMain {
             System.out.println("The biggest number is: " + biggestOne);
         }
     }
-//
-//import java.util.Arrays;
-//import java.util.Scanner;
-//
-//public class ScannerMain {
-//
-//        public static void main(String[] args) {
-//                int i, arraySize = 0;
-//                int smallestOne = 0;
-//                int biggestOne = 0;
-//
-//                Scanner scanner = new Scanner(System.in);
-//
-//                System.out.print("Enter a size of an Array: ");
-//
-//                arraySize = scanner.nextInt();
-//                int[] array = new int[arraySize];
-//
-//                System.out.println("The size of an Array will be: " + arraySize);
-//                System.out.println("Now enter any " + arraySize + " numbers: ");
-//
-//                for ( i = 0; i < arraySize; i++) {
-//                        array[i] = scanner.nextInt();
-//                }
-//                System.out.println("Printin an Array you created: " + Arrays.toString(array));
-//        }
-//
-//}
