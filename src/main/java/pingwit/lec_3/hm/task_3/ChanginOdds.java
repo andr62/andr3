@@ -1,4 +1,4 @@
-package pingwit.lec_3.hm.task_3pingwit2;
+package pingwit.lec_3.hm.task_3;
 
 import java.util.Arrays;
 
