@@ -2,6 +2,7 @@ package pingwit.lec_3.hm.task_6pingwit2;
 
 import java.util.Arrays;
 
+//+-
 public class MassiveFromAMassive {
     public static void main(String[] args) {
         int[] array = new int[20];
@@ -12,7 +13,7 @@ public class MassiveFromAMassive {
 
         System.out.println(Arrays.toString(array));
 
-        int[] arrayOfEvens = new int[10];
+        int[] arrayOfEvens = new int[10]; //в общем случае чётных чисел в массиве может быть больше половины 
         int evens = 0;
         for (int i = 0; i < array.length; i++) {
             if (array[i] % 2 == 0) {
@@ -22,6 +23,6 @@ public class MassiveFromAMassive {
         }
 
         System.out.println(Arrays.toString(arrayOfEvens));
-
+//Лишняя пустая строка 
     }
 }
