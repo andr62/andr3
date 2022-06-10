@@ -4,6 +4,7 @@ package pingwit.lec_3.hm.task_1pingwit2;
 import java.util.Arrays;
 import java.util.Scanner;
 
+//+-
 public class ScannerMain {
         public static void main(String[] args) {
             int[] array = new int[3];
