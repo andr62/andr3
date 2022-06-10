@@ -2,9 +2,11 @@ package pingwit.lec_3.hm.task_3pingwit2;
 
 import java.util.Arrays;
 
+//+
 public class ChanginOdds {
     public static void main(String[] args) {
         int[] array = new int[10];
+        //Переменные не используются. Необходимо удалить
         int evenNumbers = 0; // четный
         int oddNumbers = 0; // нечетный
 
