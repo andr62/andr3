@@ -1,5 +1,6 @@
 package pingwit.lec_3.hm;
 
+//А это что за зверь тут затесался?)
 class FDemo {
     int x;
     FDemo (int i) {
