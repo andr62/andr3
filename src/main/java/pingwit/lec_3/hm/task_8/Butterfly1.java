@@ -12,13 +12,13 @@ public class Butterfly1 {
                 butterflySize[i][j] = i;
                 butterflySize[i][j] = j;
 //                System.out.print(butterflySize[i][j]);
-                System.out.println(); //(Arrays.toString(butterflySize));
-                System.out.println(Arrays.deepToString(butterflySize));
+
 
             }
 
         }
-
+        System.out.println(); //(Arrays.toString(butterflySize));
+        System.out.println(Arrays.deepToString(butterflySize));
 
     }
 }
