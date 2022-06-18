@@ -1,4 +1,4 @@
-package pingwit.lec_7.task_7;
+package pingwit.lec_7.hm.task_7;
 
 public class BenchmarkMain {
     public static void main(String[] args) {
