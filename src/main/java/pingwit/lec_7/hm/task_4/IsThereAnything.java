@@ -46,21 +46,6 @@ public class IsThereAnything {
                 }
                 System.out.println(countAddAgain);
 
-//                String[] words = {"alert", "add", "good","plan"};
-//                String[] howManyTimes = text.split("\\s*(\\s|,|!|,\\.)\\s*");
-//
-//                for (String howManyTimes : howManyTimes) {
-//                    int count = 0;
-//                    for (String word : words) {
-//                        if (howManyTimes.equals(word)) {
-//                            count++;
-//                        }
-//                    }
-//                }
-//
-//                System.out.println(Arrays.toString(howManyTimes));
-
-
     }
 }
 
