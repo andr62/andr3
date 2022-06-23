@@ -15,7 +15,7 @@ public class StringArray {
         String array[] = text.split(" ");
 
         for (int i = 0; i < array.length; i++) {
-            if (array[i].toString().length() == 5) {
+            if (array[i].length() > 5) {
                 System.out.println(array[i]);
             }
         }
