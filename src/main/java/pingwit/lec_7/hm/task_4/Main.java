@@ -11,6 +11,7 @@ public class Main {
                 "Of course polishing the overall experience is important at the same time.\n" +
                 "Game has been extensively tested in closed group, but it is always important to hear fresh suggestions\n" +
                 "from larger crowd that come from various gaming backgrounds.\n" +
+                "add \n" +
                 "Plan is to make the game as good as possible but without compromising the core idea.";
         string = string.toLowerCase().replace(".", " ").replace("\n", " ").replace(",", "");
         String[] split = string.split(" ");
@@ -33,6 +34,4 @@ public class Main {
         System.out.println("Слово good встречается " + sumOfGood + " раз");
         System.out.println("Слово plan встречается " + sumOfPlan + " раз");
     }
-}
-
 }

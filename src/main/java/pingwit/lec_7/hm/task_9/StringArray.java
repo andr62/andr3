@@ -1,4 +1,4 @@
-package pingwit.lec_7.task_9;
+package pingwit.lec_7.hm.task_9;
 
 import java.util.Locale;
 

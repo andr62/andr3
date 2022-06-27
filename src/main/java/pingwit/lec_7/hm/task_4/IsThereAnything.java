@@ -4,14 +4,13 @@ import java.util.Locale;
 
 public class IsThereAnything {
     public static void main(String[] args) {
-        String text = """
-                While major gameplay components are already in place and functioning,
-                players help is needed to add some of the smaller features and content.
-                Of course polishing the overall experience is important at the same time.
-                Game has been extensively tested in closed group, but it is always important to hear fresh suggestions
-                from larger crowd that come from various gaming backgrounds.
-                add add
-                Plan is to make the game as good as possible but without compromising the core idea.""";
+        String text = "While major gameplay components are already in place and functioning,\n" +
+                "players help is needed to add some of the smaller features and content.\n" +
+                "Of course polishing the overall experience is important at the same time.\n" +
+                "Game has been extensively tested in closed group, but it is always important to hear fresh suggestions\n" +
+                "from larger crowd that come from various gaming backgrounds.\n" +
+                "add \n" +
+                "Plan is to make the game as good as possible but without compromising the core idea.";
 
                 System.out.println(text);
                 System.out.println(text.toLowerCase(Locale.ROOT).contains("alert"));

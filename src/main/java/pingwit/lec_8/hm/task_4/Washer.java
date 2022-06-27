@@ -6,27 +6,26 @@ package pingwit.lec_8.hm.task_4;
 //тем самым спровоцировав в программе работы машинки исключение. Нужно написать программу, которая бы обязательно
 //запускала программу слива воды, если произошел такой сбой
 
+import java.util.Scanner;
+
 public class Washer {
     public static void main(String[] args) {
 
-//        int isConnectedToElectricity = 1;
-//
-//        Scanner scanner = new Scanner(System.in);
-//
-//        int isConnectedToElectricity = scanner.nextInt();
-//
-//        if (isConnectedToElectricity == 1) {
-//            System.out.println("Everything's ok");
-//
-//            else {
-//                System.out.println("Draining water");
-//            }
-//        }
+        int isConnectedToElectricity = 1;
+
+        Scanner scanner = new Scanner(System.in);
+
+        int isItStillConnected = scanner.nextInt();
+
+        if (isItStillConnected == isConnectedToElectricity) {
+            System.out.println("Washing");
+        }
+            else {
+                System.out.println("Draining water");
+            }
+
+        }
     }
-}
 
 
-//
-//        System.out.println("Draining water");
-//    }
-//}
+

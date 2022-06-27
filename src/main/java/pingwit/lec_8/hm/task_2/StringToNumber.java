@@ -11,12 +11,12 @@ public class StringToNumber {
         try {
 
             myInt = Integer.parseInt("9");
-            int nextInt = Integer.parseInt("Lol");
+            int nextInt = Integer.parseInt("not a number");
 
 
         } catch (NumberFormatException e) {
-            System.out.println("Do u really think it is a number??");
-            System.out.println(myInt);
+            System.out.println("Exception caught");
+            System.out.println("Printing myInt: " + myInt);
         }
     }
 }
