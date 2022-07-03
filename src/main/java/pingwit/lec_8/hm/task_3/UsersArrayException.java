@@ -24,29 +24,18 @@ public class UsersArrayException {
 
                 int arrayLength = scanner.nextInt();
 
-//                if (arrayLength < minSize) {
-//                    throw new CustomException("You should've entered a specific number!");
-//                }
-
-                if (arrayLength > maxSize | arrayLength < minSize) { //тут лучше исопльзовать оператор ||. Почитай про их раницу или поищи в записи лекции 1
+                if (arrayLength > maxSize || arrayLength < minSize) { //тут лучше исопльзовать оператор ||. Почитай про их раницу или поищи в записи лекции 1
                     throw new CustomException("You should've entered a specific number!");
                 }
 
                 int[] usersArray = new int[arrayLength];
-                int i = 0;
-
-//не забывай удалять рабочие комментарии
-//
-//                if (usersArray.length < minSize) {
-//
-//                    throw new CustomException("An array can't be of a negative size!");
 
                 tryAgain = false;
 
             } catch (CustomException e) {
 
-                String string = e.getMessage(); //можно без переменной сразу выводить
-                System.out.println(string);
+//                String string = e.getMessage(); //можно без переменной сразу выводить
+                System.out.println(e.toString());
             }
         } while (tryAgain);
 

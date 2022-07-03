@@ -4,12 +4,18 @@ package pingwit.lec_8.hm.task_2;
 //    Task 2
 //    Написать метод, который бы парсил строку в число, обработать исключение, которое может быть при неверном формате числа
 
+import java.util.Scanner;
+
 public class StringToNumber {
 
     public static void main(String[] args) {
 
-        int myInt = 0; //не совсем понятно, почему он тут
+        int myInt = 0; //не совсем понятно, почему он тут // со сканнером понятно, в
         try {
+
+            Scanner scanner = new Scanner(System.in);
+
+
 
             myInt = Integer.parseInt("9");
             int nextInt = Integer.parseInt("not a number");

@@ -8,7 +8,7 @@ package pingwit.lec_4.hm.task_1a;
 //
 //В отдельном классе в методе main() создать экземпляр этого класса и вывести на экран используя метод show()
 
-public class FriendsList {
+public class FriendMain {
 
     public static void main(String[] args) {
 
@@ -16,6 +16,8 @@ public class FriendsList {
         Friend friend = new Friend("Egorka", 33);
 
         System.out.println(friend.name);
+
+        System.out.println(friend);
 
     }
 }
