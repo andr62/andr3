@@ -1,5 +1,6 @@
 package pingwit.lec_8.hm.task_3;
 
+//+, только меньше пустых строчек, плез
 //Task 3
 //Попросите пользователя ввести число размера будущего массива, но не больше размера Y (задайте сами).
 //Если пользователь ввел число больше Y или отрицательное, то выбросьте собственное исключение и
@@ -14,7 +15,7 @@ public class UsersArrayException {
         int minSize = 0;
         boolean tryAgain = true;
 
-        System.out.println("Please enter an array size as a positive number between 0 to 100:");
+        System.out.println("Please enter an array size as a positive number between 0 to 100:"); //тут лучше использовать значения переменных - меньше работы, если понадобится их изменить
 
         Scanner scanner = new Scanner(System.in);
 
@@ -27,14 +28,14 @@ public class UsersArrayException {
 //                    throw new CustomException("You should've entered a specific number!");
 //                }
 
-                if (arrayLength > maxSize | arrayLength < minSize) {
+                if (arrayLength > maxSize | arrayLength < minSize) { //тут лучше исопльзовать оператор ||. Почитай про их раницу или поищи в записи лекции 1
                     throw new CustomException("You should've entered a specific number!");
                 }
 
                 int[] usersArray = new int[arrayLength];
                 int i = 0;
 
-
+//не забывай удалять рабочие комментарии
 //
 //                if (usersArray.length < minSize) {
 //
@@ -44,12 +45,12 @@ public class UsersArrayException {
 
             } catch (CustomException e) {
 
-                String string = e.getMessage();
+                String string = e.getMessage(); //можно без переменной сразу выводить
                 System.out.println(string);
             }
         } while (tryAgain);
 
-        System.out.println("AT LAST!");
+        System.out.println("AT LAST!"); //ееееееееееееее:)
     }
 }
 
